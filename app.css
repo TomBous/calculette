@@ -1,0 +1,52 @@
+h1 {
+    font-size: 30px;
+    color: darkgray;
+}
+body {
+    width: 100%;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+.calcul {
+    width: 70%;
+    font-size: 30px;
+    text-align: right;
+    display: inline-block;
+}
+.resultat {
+    width: 30%;
+    display: inline-block;
+    font-size: 30px;
+}
+.ligne_calcul {
+    border: 3px solid rgb(45, 94, 117);
+    margin: 5px 0;
+    padding: 15px 0;
+    background-color: moccasin;
+    color: #666;
+    box-sizing: border-box;
+}
+.reset {
+	width: 100%;
+	background-color: slategray;
+}
+button {
+    height: 100px;
+    font-size: 30px;
+    width: 24%;
+    background-color: rgb(45, 94, 117);
+    color: white;
+    border: none;
+    margin: 2px;
+  }
+
+button:hover {
+    background-color: rgb(56, 133, 168);
+    cursor: pointer;
+}
