@@ -9,6 +9,15 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.row button:last-child {
+    background-color: rgb(48, 77, 92);
+}
+.row button:last-child:hover {
+    background-color: rgb(63, 111, 136);
+}
+button.egal {
+    background-color: rgb(255, 150, 30);
+}
 .container {
     width: 500px;
     margin: 0 auto;

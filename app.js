@@ -113,3 +113,10 @@ class App extends React.Component {
     }
 
 ReactDOM.render(<App />, document.getElementById('root'));
+
+let boutons = document.querySelectorAll('button');
+boutons.forEach(bouton => {
+    if (bouton.innerHTML == "=") {
+        bouton.classList.add("egal");
+    }
+});
